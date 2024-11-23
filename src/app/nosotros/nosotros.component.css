@@ -1,0 +1,78 @@
+/* Estilo de animación */
+.animated-title span {
+    opacity: 0;
+    display: inline-block;
+    animation: fadeInLetter 0.5s forwards;
+}
+
+/* Animación para que las letras aparezcan con un efecto de deslizamiento */
+@keyframes fadeInLetter {
+    0% {
+        opacity: 0;
+        transform: translateY(10px); /* Desliza las letras desde abajo */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Letras llegan a su posición original */
+    }
+}
+
+/* Animar las letras con un retraso progresivo */
+.animated-title span:nth-child(1) {
+    animation-delay: 0s;
+}
+.animated-title span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+.animated-title span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+.animated-title span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+.animated-title span:nth-child(5) {
+    animation-delay: 0.4s;
+}
+.animated-title span:nth-child(6) {
+    animation-delay: 0.5s;
+}
+.animated-title span:nth-child(7) {
+    animation-delay: 0.6s;
+}
+.animated-title span:nth-child(8) {
+    animation-delay: 0.7s;
+}
+.animated-title span:nth-child(9) {
+    animation-delay: 0.8s;
+}
+.animated-title span:nth-child(10) {
+    animation-delay: 0.9s;
+}
+.animated-title span:nth-child(11) {
+    animation-delay: 1s;
+}
+.animated-title span:nth-child(12) {
+    animation-delay: 1.1s;
+}
+.animated-title span:nth-child(13) {
+    animation-delay: 1.2s;
+}
+.animated-title span:nth-child(14) {
+    animation-delay: 1.3s;
+}
+.animated-title span:nth-child(15) {
+    animation-delay: 1.4s;
+}
+.animated-title span:nth-child(16) {
+    animation-delay: 1.5s;
+}
+.animated-title span:nth-child(17) {
+    animation-delay: 1.6s;
+}
+.animated-title span:nth-child(18) {
+    animation-delay: 1.7s;
+}
+.animated-title span:nth-child(19) {
+    animation-delay: 1.8s;
+}
+
